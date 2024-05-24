@@ -6,7 +6,7 @@ One stop solution for writers to show case your writings skills. where users can
 
 ## View Project
 
-Insert gif or link to demo
+https://bookifywebapp.netlify.app/
 
 
 ## Screenshots
