@@ -8,7 +8,7 @@ const Register = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate()
 
-  const { signUpUserWithEmailAndPassword, isLoggedIn } = useFirebase();
+  const { signUpUserWithEmailAndPassword, isLoggedIn, googleSignIn } = useFirebase();
 
   const handleSubmit = async (e)=>{
     e.preventDefault();
@@ -53,15 +53,15 @@ const Register = () => {
             />
             <button 
             type="submit" 
-            className="bg-blue-500 py-2 rounded-md text-white">
+            className="bg-blue-500 py-2 mt-2 rounded-md text-white cursor-pointer">
               Create Account
             </button>
             
           </form>
-          <div className="flex items-center gap-2 mt-4 w-fit border-[1px] border-zinc-500 px-7 py-1 rounded-full bg-zinc-200">
-            <img className="w-5  " src={google} alt="" />
-            <p className="text-base font-base text-zinc-800 ">Signup with Google</p>
-          </div>
+          <button className="flex items-center  gap-2 mt-4 w-fit border-[1px] border-zinc-500 px-7 py-1 rounded-full bg-zinc-200">
+            <img className="w-4  " src={google} alt="" />
+            <p onClick={()=> googleSignIn()} className="text-sm font-base text-zinc-800 ">Signup with Google</p>
+          </button>
           
         </div>
        

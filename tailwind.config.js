@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        radio : ["Radio Canada Big", "sans-serif"]
+        radio : ["Radio Canada Big", "sans-serif"],
+        titan : ["Titan One", "sans-serif"],
+        paytone : ["Paytone One", "sans-serif"],
       }
     },
   },

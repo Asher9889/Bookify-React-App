@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+:root{
+    --background-color: #ffe3d8;
+    --blue1: #3ab2ff;
+    --blue2: #0059e5;
+    --blue3: #0b5add;
+    --red1: #ff6541;
+}
+
 
 
