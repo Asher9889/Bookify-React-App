@@ -72,6 +72,7 @@ export const FirebaseProvider = (props) => {
 
   const userDetails = () => {
     onAuthStateChanged(auth, (user) => user);
+    // for git
   };
 
   
