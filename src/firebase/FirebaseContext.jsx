@@ -137,6 +137,7 @@ export const FirebaseProvider = (props) => {
       }}
     >
       {props.children}
+      
     </FirebaseContext.Provider>
   );
 };
